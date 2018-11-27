@@ -13,6 +13,9 @@ body {
     color: #4aaaa5;
     font-weight: bold;
     font-family: Georgia, Times, "Times New Roman", serif;
+    border-bottom: 2px solid #dddddd;
+    padding: 0 0 15px 0;
+    margin-bottom: 20px;
 }
 
 .navbar-light .navbar-brand {
@@ -25,12 +28,13 @@ body {
 
 img.responsive {
     margin: 0 20px 10px 0;
-    float: left;   
+    float: left;  
 }
 
 footer {
     position: fixed;
     bottom: 0;
+    border-top: 6px solid #4aaaa5;
     width: 100%;
     height: 60px;
     background-color: #666;
