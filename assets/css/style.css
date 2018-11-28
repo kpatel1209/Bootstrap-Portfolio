@@ -12,7 +12,7 @@ html {
     min-height: 100%;
 }
 
-/*nav bar*/
+/* nav bar starts */
 .navbar-light .navbar-brand {
     color: #fff;
     background: #4aaaa5;
@@ -24,54 +24,28 @@ html {
 .navbar-light .navbar-brand:hover {
     color: #fff;
 }
+/* nav bar ends */
 
-/*content area*/
+/* main white box criteria starts */
 main {
     margin: 60px;
 }
 
 .box {
     background-color: #fff;
-    padding: 30px;
-    margin-bottom: 30px;
+    padding: 35px;
+    margin-bottom: 35px;
 }
 
 .header {
     color: #4aaaa5;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 35px;
 }
+/* main white box criteria end */
 
-#profile-pic {
-    float: left;
-    padding-right: 20px;
-}
-
-.images {
-    margin-top: 20px;
-    margin-left: 20px;
-    border: 2px solid #dddddd;
-
-}
-
-.thumbnail .tags {
-    position: absolute;
-    bottom: 20px;
-    width: 53.75%;
-    padding: 15px;
-    margin-left: 21px;
-    margin-bottom: 0;
-    font-size: 24px;
-    font-weight: 300;
-    line-height: 30px;
-    color: #ffffff;
-    text-align: center;
-    background: #4aaaa5;
-    border-bottom: 0;
-
-}
-/*footer*/
+/* footer criteria starts */
 .footer {
     position: absolute;
     bottom: 0;
@@ -82,4 +56,44 @@ main {
     text-align: center;
     border-top: 7px solid #4aaaa5;
 }
+/* footer criteria ends */
+
+/* about me criteria starts */
+#profile-pic {
+    float: left;
+    padding-right: 20px;
+}
+
+.box p {
+    padding: 3px 0 3px 0;
+
+}
+/* about me criteria ends */
+
+/* portfolio criteria starts */
+.work {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px auto;
+    overflow: hidden;
+    padding-right: 50px;
+  }
+
+  .work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 82%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+    font-size: 20px;
+/* portfolio criteria ends */
+
+
 
