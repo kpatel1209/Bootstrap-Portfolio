@@ -33,7 +33,7 @@ main {
 
 .box {
     background-color: #fff;
-    padding: 35px;
+    padding: 25px;
     margin-bottom: 35px;
 }
 
@@ -62,11 +62,6 @@ main {
 #profile-pic {
     float: left;
     padding-right: 20px;
-}
-
-.box p {
-    padding: 3px 0 3px 0;
-
 }
 /* about me criteria ends */
 
