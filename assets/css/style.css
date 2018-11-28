@@ -7,6 +7,11 @@ body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 /*nav bar*/
 .navbar-light .navbar-brand {
     color: #fff;
@@ -22,7 +27,7 @@ body {
 
 /*content area*/
 main {
-    margin: 80px;
+    margin: 60px;
 }
 
 .box {
@@ -42,10 +47,6 @@ main {
     float: left;
     padding-right: 20px;
 }
-
-
-
-
 
 .images {
     margin-top: 20px;
@@ -71,13 +72,14 @@ main {
 
 }
 /*footer*/
-footer {
-    position: fixed;
+.footer {
+    position: absolute;
     bottom: 0;
-    border-top: 6px solid #4aaaa5;
     width: 100%;
     height: 60px;
+    line-height: 60px;
     background-color: #666;
     text-align: center;
- }
+    border-top: 7px solid #4aaaa5;
+}
 
