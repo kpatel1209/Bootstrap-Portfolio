@@ -66,7 +66,7 @@ main {
 /* about me criteria ends */
 
 /* portfolio criteria starts */
-.work {
+.images {
     position: relative;
     float: left;
     width: 274px;
@@ -75,7 +75,7 @@ main {
     padding-right: 50px;
   }
 
-  .work h3 {
+  .images h3 {
     position: absolute;
     bottom: 20px;
     width: 82%;
@@ -88,16 +88,13 @@ main {
     background: #4aaaa5;
     border-bottom: 0;
     font-size: 20px;
+  }
 /* portfolio criteria ends */
 
 /* contact criteria starts */
-
-
-
-
-
-
-
-
+button {
+    background: #4aaaa5;
+    color: #ffffff;
+}
 /* contact criteria ends */
 
