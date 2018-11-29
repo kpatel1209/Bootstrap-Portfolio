@@ -61,7 +61,7 @@ main {
 /* about me criteria starts */
 #profile-pic {
     float: left;
-    padding-right: 20px;
+    padding: 0 20px 0 0;
 }
 /* about me criteria ends */
 
